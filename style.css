@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+}
+.main h1{
+    margin-bottom: 50px;
+}
+.box{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+}
+.tit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tit span{
+    color: green;
+    background-color: rgb(111, 239, 152);
+    display: flex;
+}
+.tit span i{
+    padding: 5px;
+}
+.inputtext{
+    background-color: rgb(111, 239, 152);
+    color: green;
+    border: none;
+    text-align: end;
+}
+.inputtext:focus{
+    outline: none;
+}
+.inrange{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.out .tit{
+    margin-bottom: 5px;
+}

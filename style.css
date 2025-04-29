@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 .main{
     display: flex;
@@ -46,6 +47,11 @@
     margin-top: 30px;
 }
 
-.out .tit{
-    margin-bottom: 5px;
+.out .tit p{
+color: grey;
+margin-top: 10px;
+}
+
+.title{
+    margin-bottom: 50px;
 }

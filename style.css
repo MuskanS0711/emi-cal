@@ -15,7 +15,7 @@
     margin-bottom: 50px;
 }
 .box{
-    border: 1px solid;
+    border: 0.5px solid rgba(136, 141, 136, 0.5);
     border-radius: 5px;
     width: 30%;
     padding: 20px;
@@ -29,6 +29,7 @@
     color: green;
     background-color: rgb(111, 239, 152);
     display: flex;
+
 }
 .tit span i{
     padding: 5px;
@@ -54,4 +55,19 @@ margin-top: 10px;
 
 .title{
     margin-bottom: 50px;
+}
+@media(max-width:962px){
+    .box{
+        width: 70%;
+    }
+}
+@media(max-width:768px){
+    .box{
+        width: 100%;
+    }
+}
+@media(max-width:325px){
+    .tit{
+        flex-direction: column;
+    }
 }
